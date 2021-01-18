@@ -1,0 +1,25 @@
+{
+    "name": "example",
+    "description": "Example Wails app with esbuild",
+    "author": {
+        "name": "Ryan Weiss",
+        "email": "rw3iss@gmail.com"
+    },
+    "version": "0.1.0",
+    "binaryname": "example",
+    "frontend": {
+        "dir": "client",
+        "install": "npm install",
+        "build": "npm run build",
+        "bridge": "src",
+        "serve": "npm run serve"
+    },
+    "tags": "",
+    "WailsVersion": "",
+    "CrossCompile": false,
+    "Platform": "",
+    "Architecture": "",
+    "LdFlags": "",
+    "GoPath": "",
+    "UseFirebug": false
+}

@@ -1,0 +1,27 @@
+{
+    "name": "wails-vanilla-client-esbuild",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "typescript": "4.1.3"
+    },
+    "dependencies": {
+        "@wailsapp/runtime": "^1.0.10",
+        "core-js": "^3.6.4",
+        "esbuild": "^0.8.16"
+    },
+    "scripts": {
+        "setup": "sudo npm install -g http-server && npm install",
+        "start": "http-server build -p 8090",
+        "serve": "http-server build -p 8090",
+        "build": "node build.js",
+        "test": ""
+    },
+    "browserslist": [
+        "Chrome 74",
+        "Firefox 63",
+        "Safari 11",
+        "Edge 17",
+        "Node 10"
+    ]
+}
