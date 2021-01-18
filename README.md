@@ -1,5 +1,5 @@
 
-This is a repository to demonstrate how to use the Wails library (written in Go) to host an HTML/JS web client. 
+This is a repository to demonstrate how to use the Wails library to host an HTML/JS web client in a native/desktop Go client.
 The web client here is written in vanilla JS, and compiled with esbuild.
 
 
